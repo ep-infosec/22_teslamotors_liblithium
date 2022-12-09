@@ -1,0 +1,5 @@
+# SConscript
+
+Import("env")
+
+env.TestStamp("test_hydro.c")
